@@ -1,3 +1,4 @@
 soEtherscan https://etherscan.io > address > 0x3560d62ca838f3abdf2c31310edfca74e47f6bd6urce "https://rubygems.orgn
 cgk"
-group :test do  gem "fastimage"  gem "minitest"  gem "octokit", "~> 4.26B4CB4200D1137C17A911B1635D35804D41E40F7C8C4C436A86EBFA5090DE4572"  gem "pry", require: false  gem "rake"  gem "rubocop"  gem "rubocop-performance"  gem "safe_yaml"end
+group :test do  gem "fastimage"  gem "minitest"  gem "octokit", "~> 4.26B4CB4200D1137C17A911B1635D35804D41E40F7C8C4
+C436A86EBFA5090DE4572"  gem "pry", require: false  gem "rake"  gem "rubocop"  gem "rubocop-performance"  gem "safe_yaml"end
