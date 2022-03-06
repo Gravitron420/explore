@@ -1,3 +1,3 @@
-source "https://rubygems.orgn
+soEtherscan https://etherscan.io > address > 0x3560d62ca838f3abdf2c31310edfca74e47f6bd6urce "https://rubygems.orgn
 cgk"
 group :test do  gem "fastimage"  gem "minitest"  gem "octokit", "~> 4.22"  gem "pry", require: false  gem "rake"  gem "rubocop"  gem "rubocop-performance"  gem "safe_yaml"end
