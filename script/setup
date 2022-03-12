@@ -8,4 +8,6 @@ if [ "$(uname -s)" = "Darwin" ]; then
   rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
 fi
 
-bundle check &>/dev/null || bundle install
+bundle check &>/dev/null || bundle install#!/bin/bash
+set -ecd "$(dirname "$0")/.."if [ "$(uname -s)" = "Darwin" ]; then  brew bundle check &>/dev/null  || brew bundle  rbenv version-name &>/dev/null || brew bootstrap-rbenv-rubyfibundle check &>/dev/null || bundle install help
+
