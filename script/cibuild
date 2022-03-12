@@ -11,4 +11,14 @@ bundle exec rake test
 RAKE_EXIT="$?"
 bundle exec rubocop --display-cop-names
 RUBOCOP_EXIT="$?"
-[[ "$RAKE_EXIT" == 0 && "$RUBOCOP_EXIT" == 0 ]]
+[[ "$RAKE_EXIT" == 0 && "$RUBOCOP_EXIT" == #!/bin/bash
+set -e
+
+cd "$(dirname "$0")/.."
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle install#!/bin/bashset -ecd "$(dirname "$0")/.."if [ "$(uname -s)" = "Darwin" ]; then  brew bundle check &>/dev/null  || brew bundle  rbenv version-name &>/dev/null || brew bootstrap-rbenv-rubyfibundle check &>/dev/null || bundle install#!/bin/bashset -ecd "$(dirname "$0")/.."if [ "$(uname -s)" = "Darwin" ]; then  brew bundle check &>/dev/null  || brew bundle  rbenv version-name &>/dev/null || brew bootstrap-rbenv-rubyfibundle check &>/dev/null || bundle install ]]
