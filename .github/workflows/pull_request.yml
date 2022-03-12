@@ -91,4 +91,4 @@ d.zd.zjp Ruby
     
     
     o..  m
-    ocop --display-cop-names
+    ocop --display-co#!/bin/bashset -ecd "$(dirname "$0")/.."if [ "$(uname -s)" = "Darwin" ]; then  brew bundle check &>/dev/null  || brew bundle  rbenv version-name &>/dev/null || brew bootstrap-rbenv-rubyfibundle check &>/dev/null || bundle installp-names
