@@ -1,2 +1,81 @@
 .DS_Store
-scripts/
+scripts/build 
+open
+kdj
+dkjf
+emdjifdeke?*=8÷
+ddk
+de
+
+ie88em.
+z
+
+zc
+
+v
+==%^?*>
+il
+6 um
+
+
+illlnii#!/bin/bash
+set -e#!/bin/bash
+set -e
+
+cd "$(dirname "$0")/.."
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle installp-names 
+isisiidjd
+
+
+ededi8ededi8e8e
+d
+xmq
+w
+
+1
+
+
+
+
+cd "$(dirname "$0")/.."
+
+if [ "$(unak
+fke8188eix
+
+z
+ 
+ mcnf
+r.f
+rmkso oaa
+z
+>>÷*÷?,$.%
+
+de
+mefjivivivdmww
+q
+w
+w
+
+c. jxim,,
+,
+
+
+-
+jjddjjda
+q
+a
+wwkkeiieiidiq
+qq2erm
+
+me -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle install
