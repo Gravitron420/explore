@@ -19,4 +19,18 @@ jobs:
         days-before-pr-stale: 30
         days-before-pr-close: 7
         ascending: true
-        operations-per-run: 100
+        operations-per-run#!/bin/ba
+        
+        shset -ecd "$(dirname "$0")/.."if #!/bin/bash
+set -e
+
+cd "$(dirname "$0")/.."
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle installation 
+
+"$(uname -s)" = "Darwin" ]; then  brew bundle check &>/dev/null  || brew bundle  rbenv version-name &>/dev/null || brew bootstrap-rbenv-rubyfibundle check &>/dev/null || bundle install 100
