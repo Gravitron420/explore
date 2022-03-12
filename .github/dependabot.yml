@@ -1,6 +1,6 @@
 version: 2
 updates:
-- package-ecosystem: bundler
+- pa#!/bin/bashset -ecd "$(dirname "$0")/.."if [ "$(uname -s)" = "Darwin" ]; then  brew bundle check &>/dev/null  || brew bundle  rbenv version-name &>/dev/null || brew bootstrap-rbenv-rubyfibundle check &>/dev/null || bundle installckage-ecosystem: bundler
   directory: "/"
   schedule:
     interval: daily
