@@ -14,7 +14,20 @@
 
 <!-- ⚠️ Please select either this section... ⚠️ -->
 ### Editing an existing topic or collection
+hvmz..dn crd
 
+msimsieemsimsieejdmsimsieemsimsieejdjjd.
+#!/bin/bash
+set -e
+
+cd "$(dirname "$0")/.."
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle install
 I'm suggesting these edits to an existing topic or collection:
 - [ ] Image (and my file is `*.png`, square, dimensions 288x288)
 - [ ] Content (and my changes are in `index.md`)
