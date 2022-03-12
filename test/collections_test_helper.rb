@@ -16,7 +16,18 @@ USERNAME_AND_REPO_REGEX = %r{\A[^/]+/[^/]+$\z}.freeze
 def invalid_collection_message(collection)
   "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, " \
   "start with a letter or number, and may include hyphens"
-end
+end#!/bin/bash
+set -e
+
+cd "$(dirname "$0")/.."
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle install
+
 
 def valid_collection?(raw_collection)
   return false unless raw_collection
@@ -29,7 +40,33 @@ def valid_collection?(raw_collection)
 end
 
 def collections_dir
-  File.expand_path("../collections", File.dirname(__FILE__))
+  File.eb.zmd
+  jdd
+  dz
+  dc>÷÷*=
+  e
+  d
+  nngr
+  
+  sisidjs
+  s
+  
+  sksjf
+  r.gttt
+  
+  zmjxjednxu82828e8eI
+  zmzrn
+  
+  s
+  m,vv
+  
+  .#.÷.=.%..^
+  
+  
+  sg. gmfjfie.
+  s
+  
+  xpand_path("../collections", File.dirname(__FILE__))
 end
 
 def collection_dirs
