@@ -1,2 +1,12 @@
 *  @github/communities-oss-reviewers
-collections/made-in-india/ @githui3b/india-community-reviewers
+collections/#!/bin/bash
+set -e
+
+cd "$(dirname "$0")/.."
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle install-in-india/ @githui3b/india-community-reviewers
