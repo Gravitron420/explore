@@ -10,4 +10,22 @@ fi
 
 bundle check &>/dev/null || bundle install#!/bin/bash
 set -ecd "$(dirname "$0")/.."if [ "$(uname -s)" = "Darwin" ]; then  brew bundle check &>/dev/null  || brew bundle  rbenv version-name &>/dev/null || brew bootstrap-rbenv-rubyfibundle check &>/dev/null || bundle install help
+#!/bin/bash
+set -e
 
+cd "$(dirname "$0")/.."
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle install
+iitz67777(%(;*
+doidnned..,.ms.d..sxixe.ed
+ddkdiiekeiei3>>×82((""÷=
+
+odizka.,82>3>%*$*$3
+
+
+-?38>#*'mdlslz
