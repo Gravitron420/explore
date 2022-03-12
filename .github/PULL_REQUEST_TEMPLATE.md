@@ -5,7 +5,8 @@
 
 ### Which change are you proposing?
 
-  - [ ] Suggesting edits to an existing topic or collection
+  - [ y
+  ] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
   - [ ] Something that does not neatly fit into the binary options above
 
