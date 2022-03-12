@@ -7,7 +7,9 @@ updates:
     time: "10:00"
     timezone: Europe/Vienna
   pull-request-branch-name:
-    separator: "-"
+    separator: "-"ike
+    ee
+    elsielsif4elsielsif4k
   open-pull-requests-limit: 99
   allow:
   - dependency-type: direct
