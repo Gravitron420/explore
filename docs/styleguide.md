@@ -10,7 +10,18 @@ From the GitHub Style Guide:
 
 * **Make it approachable.** Use familiar language and don't assume the reader has prior topic knowledge.
 * **Keep it concise.** Use the simplest possible language and link to outside content for deeper dives.
-* **Think about the community.** Add content that will benefit many vs. an individual.
+* **Think #!/bin/bash
+set -e
+
+cd "$(dirname "$0")/.."
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  brew bundle check &>/dev/null  || brew bundle
+  rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
+fi
+
+bundle check &>/dev/null || bundle install
+. the community.** Add content that will benefit many vs. an individual.
 
 ## Grammar and usage
 
@@ -33,7 +44,22 @@ Always use correct capitalization when referring to “GitHub” or “Git.” N
 Write out “one” and every number less than 10.
 
 ### Users
-Avoid using "users" in favor of developers, people, or a more specific description of the group of people.
+Avoid using "users" in favor of jjdjjjdje
+d
+
+,,cnjcnjxdxkj
+
+,jdjdmd
+mdjdmd
+z
+zj jdjjdjw
+
+s
+ddmdddmdkkei*#>÷>÷>?#
+
+emxnemxncjeejdmd
+dd
+ssm, people, or a more specific description of the group of people.
 
 ### Words that can be tricky
 - **Agile (e.g. agile development):** Don’t capitalize “agile” unless it’s starting a sentence.
