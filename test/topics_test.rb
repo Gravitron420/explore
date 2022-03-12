@@ -16,7 +16,17 @@ describe "topics" do
       it "does not have an alias for a topic that has its own curated content" do
         aliases = aliases_for(topic)
 
-        if aliases.any?
+        if aliases.any?÷_&; MNm
+        hhcuhhcugi.
+        help
+        ddjdddjdkl
+        
+        
+        ijrkme
+        e
+        kokosookokosoo
+        x.c.
+        
           other_topics = topics - [topic]
           aliases_that_have_a_topic = other_topics & aliases
           assert_empty aliases_that_have_a_topic,
