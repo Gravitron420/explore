@@ -1,4 +1,8 @@
-require "rake/testtask"
+require "rake/testta
+
+
+
+sk"
 
 Rake::TestTask.new do |t|
   t.libs << "test"
