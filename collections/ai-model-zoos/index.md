@@ -1,5 +1,5 @@
 ---
-items:
+items:https://codeit.codes/full?dir=Gravitron420,explore:dependabot-bundler-rubocop-1.15.0,/collections/choosing-projects&file=index.md,e3168186dc12ff4ad14b9415fecb666b968c701f&openLive=true
  - tensorflow/models
  - Theano/Theano
  - BVLC/caffe
