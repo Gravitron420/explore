@@ -20,4 +20,7 @@ items:
 display_name: How to choose (and contribute to) your first open source project
 created_by: kytrinyx
 ---
-New to open source? Here’s how to find projects that need help and start making impactful contributions.ce? Here’s how to find projects that need help and start making impactful contributions.
+New to open source? Here’s how to find projects that need help and start making impactful contribution
+.ce? Here’s how to find projects that need help and start making impactful contributions.https://codeit.codes/full?dir=Gravitron420,explore:dependabot-bundler-rubocop-1.15.0,/collections/choosing-projects&file=index.md,e3168186dc12ff4ad14b9415fecb666b968c701f&open
+exit
+=true
