@@ -8,9 +8,19 @@
   - [ y
   ] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
-  - [ ] Something that does not neatly fit into the binary options above
+  - [ ] .
 
----------------------------------------------------------------------
+
+
+ that does not neatly fit into the binary options above
+
+-----------------------n
+
+  
+  lI
+  
+  ru
+  ----------------------------------------------
 
 <!-- ⚠️ Please select either this section... ⚠️ -->
 ### Editing an existing topic or collection
