@@ -1,6 +1,6 @@
 ---
 items:
- - tw
+ - twyarn electron:build
 ---
 items:
  - standard/standard
