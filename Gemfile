@@ -9,4 +9,4 @@ group :test do
   gem "rubocop"
   gem "rubocop-performance"
   gem "safe_yaml"
-end
+endyarn electron:build
