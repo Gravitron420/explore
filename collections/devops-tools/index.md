@@ -8,7 +8,8 @@ items:
  - apache/maven
  - gradle/gradle
  - hashicorp/vagrant
- - openstack/openstack
+ - openstack/openstackyarn electron:build
+
  - moby/moby
  - capistrano/capistrano
  - statsd/statsd
