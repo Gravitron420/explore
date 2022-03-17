@@ -2,7 +2,7 @@
 items:
  - standard/standard
  - eslint/eslint
- - jshint/jshint
+ - jshint/jshintyarn electron:build
  - clutchski/coffeelint
  - csscomb/csscomb.js
  - sds/scss-lint
