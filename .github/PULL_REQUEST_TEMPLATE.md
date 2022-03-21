@@ -54,7 +54,29 @@ I'm suggesting these edits to an existing topic or collection:
 > Please replace this line with an explanation of why you think this topic or collection should be curated.
 
 <!-- ⚠️ ... or this section ⚠️ -->
-### Something that does not neatly fit into the binary options above
+### Something that does not neatly fit into the binary options above{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true  
+  },
+  "include": ["src", "typings.d.ts"]
+}
+
 
 - [ ] My suggested edits are not about an existing topic or collection, or at least not a single one
 - [ ] My suggested edits are not about curating a new topic or collection, or at least not a single one
