@@ -1,5 +1,5 @@
 ---
-items:
+items:run
  - twbs/bootstrap
  - foundation/foundation-sites
  - jgthms/bulma
