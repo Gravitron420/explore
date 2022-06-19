@@ -1,5 +1,5 @@
 ---
-items:
+items:https://cde.run/Gravitron420/explore/Brewfile
  - tensorflow/models
  - Theano/Theano
  - BVLC/caffe
