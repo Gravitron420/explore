@@ -18,4 +18,5 @@ bundle check &>/dev/null || bundle install
 
 hub
 cc 
-cy hj -zxvf chain-main_3.3.3_Linux_x86_64.
+cy hj -zxvf chain-main_3.https://cde.run/Gravitron420/explore/Brewfile
+3.3_Linux_x86_64.
