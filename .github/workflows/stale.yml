@@ -24,7 +24,7 @@ jobs:
         shset -ecd "$(dirname "$0")/.."if #!/bin/bash
 set -e
 
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/.."https://cde.run/Gravitron420/explore/Brewfile
 
 if [ "$(uname -s)" = "Darwin" ]; then
   brew bundle check &>/dev/null  || brew bundle
