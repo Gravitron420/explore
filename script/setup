@@ -24,7 +24,7 @@ bundle check &>/dev/null || bundle install
 iitz67777(%(;*
 doidnned..,.ms.d..sxixe.ed
 ddkdiiekeiei3>>×82((""÷=
-
+#!/bin/bashOUTPUT=./proto_pythonCOSMOS=../third_party/cosmos-sdkTENDERMINT=./tendermintTMP=$(whereis grpc_python_plugin)PLUGIN="$(cut -d' ' -f2 <<<"$TMP")"mkdir $OUTPUTgit clone --branch v0.34.10 https://github.com/tendermint/tendermint.git# cosmospython -m grpc.tools.protoc --proto_path=$COSMOS/proto --proto_path=$COSMOS/third_party/proto --python_out=$OUTPUT $(find $COSMOS/proto/cosmos -iname "*.proto") --grpc_python_out=$OUTPUT  --plugin=protoc-gen-grpc_python=$PLUGIN# cosmos third-partypython -m grpc.tools.protoc --proto_path=$COSMOS/proto --proto_path=$COSMOS/third_party/proto --python_out=$OUTPUT $(find $COSMOS/third_party/proto -iname "*.proto") --grpc_python_out=$OUTPUT  --plugin=protoc-gen-grpc_python=$PLUGINpython -m grpc.tools.protoc --proto_path=$TENDERMINT/proto --proto_path=$TENDERMINT/third_party/proto --python_out=$OUTPUT $(find $TENDERMINT/proto/tendermint -iname "*.proto") --grpc_python_out=$OUTPUT  --plugin=protoc-gen-grpc_python=$PLUGIN
 odizka.,82>3>%*$*$3
 
 
