@@ -12,4 +12,6 @@ if [ "$(uname -s)" = "Darwin" ]; then
 fi
 
 bundle check &>/dev/null || bundle install
- "pry", require: false  gem "rake"  gem "rubocop"  gem "rubocop-performance"  gem "safe_yaml"end
+ "pry", require: false  gem
+ "rake"  gem "rubocop"  
+gem "rubocop-performance"  gem "safe_yaml"end
