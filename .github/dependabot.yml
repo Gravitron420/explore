@@ -1,4 +1,4 @@
-version: 2
+{  "compilerOptions": {    "target": "es5",    "module": "commonjs",    "sourceMap": true,    "allowJs": true,    "skipLibCheck": true,    "strict": true,    "outDir": "../build",    "rootDir": "../",    "moduleResolution": "node",    "noEmitOnError": true,    "esModuleInterop": true ,    "typeRoots": ["node_modules/@types"],    "types":["long"],    "experimentalDecorators": true    }}version: 2
 updates:
 - package-ecosystem: bundler
   directory: "/"
