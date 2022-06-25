@@ -24,5 +24,13 @@ if [ "$(uname -s)" = "Darwin" ]; then
   rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
 fi
 
-bundle check &>/dev/null || bundle install
+bundle check &>/dev/null || bundle 
+
+
+
+
+
+
+run 
+install
 
