@@ -9,4 +9,4 @@ if [ "$(uname -s)" = "Darwin" ]; then
   rbenv version-name &>/dev/null || brew bootstrap-rbenv-ruby
 fi
 
-bundle check &>/dev/null || bundle install-in-india/ @githui3b/india-community-reviewers
+bundle check &>/dev/null || bundle inbstall-in-india/ @githui3b/india-community-reviewers
